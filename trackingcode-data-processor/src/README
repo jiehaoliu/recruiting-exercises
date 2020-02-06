@@ -5,12 +5,14 @@ Asssumption:
 1. Each ordered item number is greater than zero. <= negative number or zero is meaningless and should be invalid.
 2. For the split case, for example, if the order requires 15 apples, the 1st warehouse has 14 and the 2nd one has 15, 
    instead of 14+1 assignment, choose the 2nd warehouse to avoid split.
+3. Assume there are M order items and N warehouses, the time complexity should be around O(2*M*N)
 
 Testcase 1-3  Happy Case, exact inventory match!
 Testcase 4-6  Not enough inventory -> no allocations!
 Testcase 7-9  Should split an item across warehouses if that is the only way to completely ship an item:
 
 Instruction:
-1.To start, please use command: node solution.js, the result will be printed in the terminal
-2.To check test cases, please view testData.json
-3.To check impletation of inventoryAllocator class, please view inventoryAllocator.js 
+1. To start, please use command: node solution.js, the result will be printed in the terminal
+2. To check test cases, please view testData.json
+3. To check impletation of inventoryAllocator class, please view inventoryAllocator.js 
+
