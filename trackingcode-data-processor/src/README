@@ -11,6 +11,6 @@ Testcase 4-6  Not enough inventory -> no allocations!
 Testcase 7-9  Should split an item across warehouses if that is the only way to completely ship an item:
 
 Instruction:
-1.To start, please use command: node solution.js
+1.To start, please use command: node solution.js, the result will be printed in the terminal
 2.To check test cases, please view testData.json
 3.To check impletation of inventoryAllocator class, please view inventoryAllocator.js 

@@ -9,6 +9,9 @@ const testCases = JSON.parse(dataJSON)
 // loop through all test cases and call InventoryAllocator
 let count = 1;
 
+console.log()
+console.log("------------- "+"For input, please refer testData.json file"+" ------------")
+console.log()
 console.log("----------------------------"+" test begins "+"----------------------------")
 console.log()
 
@@ -18,6 +21,7 @@ testCases.forEach((testCase) => {
     const allocator =  new inventoryAllocator.InventoryAllocator(order,inventoryLists)
     const result = allocator.allocateInventory()
     console.log("---------------------------- test case "+count+" ----------------------------")
+    console.log("The output is: ")
     console.log(result)
     count++;
 });
