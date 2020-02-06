@@ -174,5 +174,45 @@
                 }
             }
         ]
+    },
+    {
+        "order": {
+            "apple": 5,
+            "banana": 5,
+            "orange": 5,
+            "grape": 15,
+            "pineapple":14
+        },
+        "inventoryInfo": [
+            {
+                "name": "owd",
+                "inventory": {
+                    "apple": 4,
+                    "orange": 1,
+                    "grape":14,
+                    "pineapple":7
+                }
+            },
+            {
+                "name": "dm",
+                "inventory": {
+                    "apple":4,
+                    "banana": 5,
+                    "orange": 5,
+                    "grape":15,
+                    "pineapple":10
+                }
+            },
+            {
+                "name": "deliverr",
+                "inventory": {
+                    "apple":4,
+                    "banana": 5,
+                    "orange": 5,
+                    "grape":15,
+                    "pineapple":16
+                }
+            }
+        ]
     }
 ]
