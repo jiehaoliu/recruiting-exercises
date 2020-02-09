@@ -212,6 +212,16 @@
                     "grape":15,
                     "pineapple":16
                 }
+            },
+            {
+                "name": "canadapost",
+                "inventory": {
+                    "apple":4,
+                    "banana": 500,
+                    "orange": 500,
+                    "grape":100,
+                    "pineapple":20
+                }
             }
         ]
     }
